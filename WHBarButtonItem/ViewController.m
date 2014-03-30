@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "WHBarButtonItem.h"
 
 @interface ViewController ()
 
@@ -18,6 +19,15 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    self.navigationItem.leftBarButtonItem = [[WHBarButtonItem alloc] initWithTitle:@"Back" style:WHBarButtonItemStyleLeft target:self.navigationController action:@selector(popViewControllerAnimated:)];
+    
+    self.navigationItem.rightBarButtonItem = [[WHBarButtonItem alloc] initWithTitle:@"Next" style:WHBarButtonItemStyleRight target:self action:@selector(tapRightBarButtonItem:)];
+    
+}
+
+- (void)tapRightBarButtonItem:(id)sender
+{
+    NSLog(@"press right button");
 }
 
 - (void)didReceiveMemoryWarning

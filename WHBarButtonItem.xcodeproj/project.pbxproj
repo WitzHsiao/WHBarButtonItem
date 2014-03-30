@@ -7,20 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8FB7880F18E7ED3600936CA3 /* icon-ios7-arrow-back.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FB7880D18E7ED3600936CA3 /* icon-ios7-arrow-back.png */; };
+		8FB7881018E7ED3600936CA3 /* icon-ios7-arrow-forward.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FB7880E18E7ED3600936CA3 /* icon-ios7-arrow-forward.png */; };
 		8FF04B0018E7E79100177D95 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FF04AFF18E7E79100177D95 /* Foundation.framework */; };
 		8FF04B0218E7E79100177D95 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FF04B0118E7E79100177D95 /* CoreGraphics.framework */; };
 		8FF04B0418E7E79100177D95 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FF04B0318E7E79100177D95 /* UIKit.framework */; };
-		8FF04B0A18E7E79100177D95 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8FF04B0818E7E79100177D95 /* InfoPlist.strings */; };
-		8FF04B0C18E7E79100177D95 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FF04B0B18E7E79100177D95 /* main.m */; };
-		8FF04B1018E7E79100177D95 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FF04B0F18E7E79100177D95 /* AppDelegate.m */; };
-		8FF04B1318E7E79100177D95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FF04B1118E7E79100177D95 /* Main.storyboard */; };
-		8FF04B1618E7E79100177D95 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FF04B1518E7E79100177D95 /* ViewController.m */; };
-		8FF04B1818E7E79100177D95 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FF04B1718E7E79100177D95 /* Images.xcassets */; };
 		8FF04B1F18E7E79200177D95 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FF04B1E18E7E79200177D95 /* XCTest.framework */; };
 		8FF04B2018E7E79200177D95 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FF04AFF18E7E79100177D95 /* Foundation.framework */; };
 		8FF04B2118E7E79200177D95 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FF04B0318E7E79100177D95 /* UIKit.framework */; };
 		8FF04B2918E7E79200177D95 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8FF04B2718E7E79200177D95 /* InfoPlist.strings */; };
 		8FF04B2B18E7E79200177D95 /* WHBarButtonItemTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FF04B2A18E7E79200177D95 /* WHBarButtonItemTests.m */; };
+		8FF04B5718E7E93C00177D95 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FF04B4C18E7E93C00177D95 /* AppDelegate.m */; };
+		8FF04B5818E7E93C00177D95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FF04B4D18E7E93C00177D95 /* Main.storyboard */; };
+		8FF04B5918E7E93C00177D95 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8FF04B4F18E7E93C00177D95 /* InfoPlist.strings */; };
+		8FF04B5A18E7E93C00177D95 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FF04B5118E7E93C00177D95 /* Images.xcassets */; };
+		8FF04B5B18E7E93C00177D95 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FF04B5218E7E93C00177D95 /* main.m */; };
+		8FF04B5C18E7E93C00177D95 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FF04B5418E7E93C00177D95 /* ViewController.m */; };
+		8FF04B5D18E7E93C00177D95 /* WHBarButtonItem-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8FF04B5518E7E93C00177D95 /* WHBarButtonItem-Info.plist */; };
+		8FF04B6118E7EA3500177D95 /* WHBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FF04B6018E7EA3500177D95 /* WHBarButtonItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,25 +38,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8FB7880D18E7ED3600936CA3 /* icon-ios7-arrow-back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-ios7-arrow-back.png"; sourceTree = "<group>"; };
+		8FB7880E18E7ED3600936CA3 /* icon-ios7-arrow-forward.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-ios7-arrow-forward.png"; sourceTree = "<group>"; };
 		8FF04AFC18E7E79100177D95 /* WHBarButtonItem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WHBarButtonItem.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FF04AFF18E7E79100177D95 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8FF04B0118E7E79100177D95 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		8FF04B0318E7E79100177D95 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		8FF04B0718E7E79100177D95 /* WHBarButtonItem-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WHBarButtonItem-Info.plist"; sourceTree = "<group>"; };
-		8FF04B0918E7E79100177D95 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		8FF04B0B18E7E79100177D95 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		8FF04B0D18E7E79100177D95 /* WHBarButtonItem-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WHBarButtonItem-Prefix.pch"; sourceTree = "<group>"; };
-		8FF04B0E18E7E79100177D95 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		8FF04B0F18E7E79100177D95 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		8FF04B1218E7E79100177D95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8FF04B1418E7E79100177D95 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8FF04B1518E7E79100177D95 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		8FF04B1718E7E79100177D95 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		8FF04B1D18E7E79200177D95 /* WHBarButtonItemTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WHBarButtonItemTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FF04B1E18E7E79200177D95 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		8FF04B2618E7E79200177D95 /* WHBarButtonItemTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WHBarButtonItemTests-Info.plist"; sourceTree = "<group>"; };
 		8FF04B2818E7E79200177D95 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8FF04B2A18E7E79200177D95 /* WHBarButtonItemTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WHBarButtonItemTests.m; sourceTree = "<group>"; };
+		8FF04B4B18E7E93C00177D95 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8FF04B4C18E7E93C00177D95 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8FF04B4E18E7E93C00177D95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8FF04B5018E7E93C00177D95 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8FF04B5118E7E93C00177D95 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8FF04B5218E7E93C00177D95 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8FF04B5318E7E93C00177D95 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8FF04B5418E7E93C00177D95 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8FF04B5518E7E93C00177D95 /* WHBarButtonItem-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "WHBarButtonItem-Info.plist"; sourceTree = "<group>"; };
+		8FF04B5618E7E93C00177D95 /* WHBarButtonItem-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WHBarButtonItem-Prefix.pch"; sourceTree = "<group>"; };
+		8FF04B5F18E7EA3500177D95 /* WHBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHBarButtonItem.h; sourceTree = "<group>"; };
+		8FF04B6018E7EA3500177D95 /* WHBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHBarButtonItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,10 +87,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8FB7880C18E7ED3600936CA3 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				8FB7880D18E7ED3600936CA3 /* icon-ios7-arrow-back.png */,
+				8FB7880E18E7ED3600936CA3 /* icon-ios7-arrow-forward.png */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
 		8FF04AF318E7E79100177D95 = {
 			isa = PBXGroup;
 			children = (
-				8FF04B0518E7E79100177D95 /* WHBarButtonItem */,
+				8FB7880C18E7ED3600936CA3 /* Assets */,
+				8FF04B4A18E7E93C00177D95 /* WHBarButtonItem */,
+				8FF04B4918E7E8F900177D95 /* Classes */,
 				8FF04B2418E7E79200177D95 /* WHBarButtonItemTests */,
 				8FF04AFE18E7E79100177D95 /* Frameworks */,
 				8FF04AFD18E7E79100177D95 /* Products */,
@@ -109,31 +128,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		8FF04B0518E7E79100177D95 /* WHBarButtonItem */ = {
-			isa = PBXGroup;
-			children = (
-				8FF04B0E18E7E79100177D95 /* AppDelegate.h */,
-				8FF04B0F18E7E79100177D95 /* AppDelegate.m */,
-				8FF04B1118E7E79100177D95 /* Main.storyboard */,
-				8FF04B1418E7E79100177D95 /* ViewController.h */,
-				8FF04B1518E7E79100177D95 /* ViewController.m */,
-				8FF04B1718E7E79100177D95 /* Images.xcassets */,
-				8FF04B0618E7E79100177D95 /* Supporting Files */,
-			);
-			path = WHBarButtonItem;
-			sourceTree = "<group>";
-		};
-		8FF04B0618E7E79100177D95 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				8FF04B0718E7E79100177D95 /* WHBarButtonItem-Info.plist */,
-				8FF04B0818E7E79100177D95 /* InfoPlist.strings */,
-				8FF04B0B18E7E79100177D95 /* main.m */,
-				8FF04B0D18E7E79100177D95 /* WHBarButtonItem-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		8FF04B2418E7E79200177D95 /* WHBarButtonItemTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -150,6 +144,32 @@
 				8FF04B2718E7E79200177D95 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8FF04B4918E7E8F900177D95 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8FF04B5F18E7EA3500177D95 /* WHBarButtonItem.h */,
+				8FF04B6018E7EA3500177D95 /* WHBarButtonItem.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		8FF04B4A18E7E93C00177D95 /* WHBarButtonItem */ = {
+			isa = PBXGroup;
+			children = (
+				8FF04B4B18E7E93C00177D95 /* AppDelegate.h */,
+				8FF04B4C18E7E93C00177D95 /* AppDelegate.m */,
+				8FF04B4D18E7E93C00177D95 /* Main.storyboard */,
+				8FF04B4F18E7E93C00177D95 /* InfoPlist.strings */,
+				8FF04B5118E7E93C00177D95 /* Images.xcassets */,
+				8FF04B5218E7E93C00177D95 /* main.m */,
+				8FF04B5318E7E93C00177D95 /* ViewController.h */,
+				8FF04B5418E7E93C00177D95 /* ViewController.m */,
+				8FF04B5518E7E93C00177D95 /* WHBarButtonItem-Info.plist */,
+				8FF04B5618E7E93C00177D95 /* WHBarButtonItem-Prefix.pch */,
+			);
+			path = WHBarButtonItem;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,9 +248,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8FF04B1818E7E79100177D95 /* Images.xcassets in Resources */,
-				8FF04B0A18E7E79100177D95 /* InfoPlist.strings in Resources */,
-				8FF04B1318E7E79100177D95 /* Main.storyboard in Resources */,
+				8FF04B5D18E7E93C00177D95 /* WHBarButtonItem-Info.plist in Resources */,
+				8FF04B5A18E7E93C00177D95 /* Images.xcassets in Resources */,
+				8FB7881018E7ED3600936CA3 /* icon-ios7-arrow-forward.png in Resources */,
+				8FF04B5818E7E93C00177D95 /* Main.storyboard in Resources */,
+				8FF04B5918E7E93C00177D95 /* InfoPlist.strings in Resources */,
+				8FB7880F18E7ED3600936CA3 /* icon-ios7-arrow-back.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,9 +272,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8FF04B1618E7E79100177D95 /* ViewController.m in Sources */,
-				8FF04B1018E7E79100177D95 /* AppDelegate.m in Sources */,
-				8FF04B0C18E7E79100177D95 /* main.m in Sources */,
+				8FF04B5C18E7E93C00177D95 /* ViewController.m in Sources */,
+				8FF04B5B18E7E93C00177D95 /* main.m in Sources */,
+				8FF04B5718E7E93C00177D95 /* AppDelegate.m in Sources */,
+				8FF04B6118E7EA3500177D95 /* WHBarButtonItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,26 +298,26 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		8FF04B0818E7E79100177D95 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8FF04B0918E7E79100177D95 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		8FF04B1118E7E79100177D95 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8FF04B1218E7E79100177D95 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		8FF04B2718E7E79200177D95 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				8FF04B2818E7E79200177D95 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8FF04B4D18E7E93C00177D95 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8FF04B4E18E7E93C00177D95 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8FF04B4F18E7E93C00177D95 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8FF04B5018E7E93C00177D95 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -456,6 +480,7 @@
 				8FF04B3018E7E79200177D95 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8FF04B3118E7E79200177D95 /* Build configuration list for PBXNativeTarget "WHBarButtonItemTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +489,7 @@
 				8FF04B3318E7E79200177D95 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
